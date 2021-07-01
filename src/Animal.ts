@@ -1,4 +1,3 @@
-export { Animal }
 /**
  * 動物といえば飯を食う、寝る。
  */
@@ -8,3 +7,4 @@ interface Animal {
   sleep(hours: number):void
 }
 
+export { Animal }

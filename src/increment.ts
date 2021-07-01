@@ -1,4 +1,8 @@
 // サンプル
 // https://book.yyts.org/features/import-export-require#module-exports
 
-module.exports = i => i + 1
+function add(i:number): number{
+  return i + 1
+}
+
+module.exports = add
