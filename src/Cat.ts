@@ -1,10 +1,9 @@
-/**
- * Catクラス。AnimalとFelineを実装する。
- */
-
 import { Animal } from './Animal'
 import { Feline } from './Feline'
 
+/**
+ * Catクラス。AnimalとFelineを実装する。
+ */
 class Cat implements Animal, Feline {
   name = 'Mochimaru'
   eat(food: string) {
@@ -18,4 +17,4 @@ class Cat implements Animal, Feline {
   }
 }
 
-export = 'Cat'
+export { Cat }

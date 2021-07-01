@@ -24,7 +24,7 @@ docker-compose up
 
 ### GitPages
 
-
+./docs/index.html
 
 ## 参考
 
