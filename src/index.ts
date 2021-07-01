@@ -1,1 +1,3 @@
-console.log('Hello World!')
+const increment = require('./increment')
+
+console.log(increment(3))

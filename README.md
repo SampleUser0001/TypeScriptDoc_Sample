@@ -10,15 +10,21 @@ npm install --save-dev typedoc
 ## 生成
 
 ``` sh
-npx typedoc src/index.ts
+npx typedoc src
 ```
 
 ## 参照
+
+### ローカル
 
 ``` sh
 # ファイルは自分で作った
 docker-compose up
 ```
+
+### GitPages
+
+
 
 ## 参考
 
